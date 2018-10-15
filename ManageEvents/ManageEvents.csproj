@@ -7,4 +7,11 @@
   <ItemGroup>
     <Compile Remove="Class1.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain.Model\" />
+    <Folder Include="Domain.Model\Events\" />
+  </ItemGroup>
 </Project>
