@@ -1,2 +1,2 @@
 # VernonDDD
-Vaughn Vernon
+Vaughn Vernon - Domain-Driven Design
