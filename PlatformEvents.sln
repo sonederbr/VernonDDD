@@ -1,9 +1,31 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManagerEventsContext", "ManagerEventsContext", "{4672E796-4147-4EC8-91DD-935D322CD085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerEvents", "ManagerEvents\ManagerEvents.csproj", "{D4534FB1-2A2B-460F-9547-85CDACF30FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8FB67554-3AD5-4DFA-B0C1-5AB6633D1F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4534FB1-2A2B-460F-9547-85CDACF30FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4534FB1-2A2B-460F-9547-85CDACF30FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4534FB1-2A2B-460F-9547-85CDACF30FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4534FB1-2A2B-460F-9547-85CDACF30FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4534FB1-2A2B-460F-9547-85CDACF30FE8} = {4672E796-4147-4EC8-91DD-935D322CD085}
+		{6A3D2175-FFAA-4F4F-BF67-EBF3987AC501} = {8FB67554-3AD5-4DFA-B0C1-5AB6633D1F3D}
 	EndGlobalSection
 EndGlobal
