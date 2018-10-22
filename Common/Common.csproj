@@ -6,5 +6,15 @@
 
   <ItemGroup>
     <Folder Include="Domain.Core\" />
+    <Folder Include="Domain.Core\Commands\" />
+    <Folder Include="Domain.Core\Events\" />
+    <Folder Include="Domain.Core\Models\" />
+    <Folder Include="Domain.Core\Bus\" />
+    <Folder Include="Domain.Core\Notifications\" />
+    <Folder Include="Domain.Core\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.0.100" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
   </ItemGroup>
 </Project>

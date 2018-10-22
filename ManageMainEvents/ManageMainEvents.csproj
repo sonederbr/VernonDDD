@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="CommandHandlers\DomainNotificationHandler.cs" />
+    <Compile Remove="Application\CommandHandlers\CommandHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain.Model\" />
+    <Folder Include="Domain.Model\MainEvents\" />
+    <Folder Include="Domain.Model\Owners\" />
+    <Folder Include="Domain.Model\MainEvents\Repository\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Application\" />
+    <Folder Include="Application\MainEvents\" />
+    <Folder Include="Application\MainEvents\Commands\" />
+    <Folder Include="Application\MainEvents\Events\" />
+    <Folder Include="Infrastructure\Context\" />
+    <Folder Include="Infrastructure\UoW\" />
+    <Folder Include="Infrastructure\Repository\" />
+    <Folder Include="Infrastructure\Mappings\" />
+    <Folder Include="Domain.Model\Owners\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.0.100" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.deps.json" />
+    <None Remove="ConsoleTeste\bin\Debug\netcoreapp2.1\Common.dll" />
+    <None Remove="ConsoleTeste\bin\Debug\netcoreapp2.1\Common.pdb" />
+  </ItemGroup>
+</Project>
